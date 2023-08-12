@@ -1,0 +1,41 @@
+a:link{
+    color: maroon;
+}
+a:visited{
+    color: darkblue;
+}
+a:hover{
+    background-color: black;
+    color:azure;
+}
+a:active{
+    background-color: blueviolet;
+}
+table{
+    width: 100%;
+}
+table,th,td{
+    border: 5px solid black;
+    border-collapse: collapse;
+}
+th{
+    height: 30px;
+}
+td{
+    height: 50px;
+    text-align: left;
+    vertical-align: baseline;
+}
+tr:nth-child(){
+    background: brown;
+}
+ol{
+    list-style: lower-greek;
+    list-style-position: outside;
+    background: lightcoral;
+}
+ul{
+    background-color: rgb(164, 121, 205);
+    padding: 2px;
+    margin: 2px;
+}
